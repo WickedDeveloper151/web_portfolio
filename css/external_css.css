@@ -129,6 +129,17 @@ header nav {
     z-index: 2;
 }
 
+#about p {
+    font-size: 1.3rem; /* Larger paragraph text */
+   margin: 20px;
+    line-height: 1.8;
+    color: #c0c0c0;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Text outline for visibility */
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+}
+
 .cta-button {
     display: inline-block;
     background-color: #00d26a;
@@ -148,8 +159,7 @@ header nav {
     background-color: #00b05a;
 }
 
-/* Newsletter Section
-*/
+
 
 /* Projects Section */
 .projects {
